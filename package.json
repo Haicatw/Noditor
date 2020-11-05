@@ -1,0 +1,26 @@
+{
+  "name": "noditor",
+  "version": "1.0.0",
+  "description": "Node based editor NPM package",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run lint && babel ./src -d ./lib",
+    "lint": "eslint ./src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Haicatw/Noditor.git"
+  },
+  "author": "Kirby",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Haicatw/Noditor/issues"
+  },
+  "homepage": "https://github.com/Haicatw/Noditor#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^7.12.1"
+  }
+}
